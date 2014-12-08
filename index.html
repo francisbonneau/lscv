@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+<h1 id="lscv-linux-system-call-visualization">LSCV : Linux System Call Visualization</h1>
+<p>Exploring a real-time visualization of applications activity (via systems calls) on Linux.</p>
+<div class="figure">
+<img src="img/http_demo.gif" alt="LSCV in action : HTTP requests syscalls on a Apache and Nginx server" /><p class="caption">LSCV in action : HTTP requests syscalls on a Apache and Nginx server</p>
+</div>
+<h2 id="goals">Goals</h2>
+<ul>
+<li>Explore different techniques of data visualization.</li>
+<li>Get a better understanding of applications and systems behaviour.</li>
+<li>Find abnormal activity and diagnose potentials performance problems.</li>
+</ul>
+<h2 id="getting-started">Getting started</h2>
+<p>LSCV consist of a server module for collecting the data (using <a href="http://www.sysdig.org/">Sysdig</a> ) and sending it (via <a href="http://redis.io/">Redis</a> publish-subscribe) to a <a href="https://www.processing.org/">Processing</a> client application that display it.</p>
+<p>To get started with LSCV : first install the server module on the Linux system you wish to instrument (or create a Ubuntu virtual machine using the Vagrant script provided), then on another machine you can download the client app .jar and launch it.</p>
+<p>All the source code and the installation instructions are on Github :</p>
+<p>The server module : <a href="https://github.com/francisbonneau/lscv-server">https://github.com/francisbonneau/lscv-server</a></p>
+<p>The client application : <a href="https://github.com/francisbonneau/lscv-client">https://github.com/francisbonneau/lscv-client</a></p>
+<p>The project doc (in french) : <a href="https://francisbonneau.github.io/lscv-doc/">https://francisbonneau.github.io/lscv-doc/</a></p>
+<h2 id="about">About</h2>
+<p>Project created for the course GTI792 at <a href="http://www.etsmtl.ca/">l'École de technologie supérieure (ÉTS)</a> by Francis Bonneau under the supervision of Michael J. McGuffin, Ph.D.</p>
+</body>
+</html>

@@ -1,7 +1,7 @@
 
 # LSCV : Linux System Call Visualization
 
-Experiment of a real-time visualization of applications activity (systems calls) on Linux.
+Experiment trying to visualize application activity (system calls) on Linux, in real-time.
 
 ![LSCV in action :  HTTP requests syscalls on a Apache and Nginx server](img/http_demo.gif)
 

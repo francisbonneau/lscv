@@ -5,8 +5,8 @@
 *   Couleurs inspirées de http://docs.lighttable.com/
 */
 
-@import url(http://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic&subset=latin);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400italic,400,600italic,600,700italic,700,800italic,800);
+@import url(https://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic&subset=latin);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400italic,400,600italic,600,700italic,700,800italic,800);
 
 ::-moz-selection { 
     background: #2484C1;
